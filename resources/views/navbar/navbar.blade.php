@@ -11,13 +11,13 @@
         <a class="nav-link" style="color:#ffffff;" href="{{url('/')}}">Inicio</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" style="color:#ffffff;" href="/contenidos">Contenidos</a>
+        <a class="nav-link" style="color:#ffffff;" href="{{route('contenidos')}}">Contenidos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" style="color:#ffffff;" href="{{url('/nosotros')}}">Nosotros</a>
+        <a class="nav-link" style="color:#ffffff;" href="{{route('nosotros')}}">Nosotros</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" style="color:#ffffff;" href="{{url('/contacto')}}">Contáctanos</a>
+        <a class="nav-link" style="color:#ffffff;" href="{{route('contacto')}}">Contáctanos</a>
       </li>
     </ul>
 

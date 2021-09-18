@@ -18,21 +18,14 @@ Route::get('/', function () {
 
 //ruta de pwa
 
-Route::get('/offline', function () {
-    return view('laravelpwa\offline');
-});
+Route::get('/offline', 'pwa/routes@offline')->name('offline');
 
-Route::get('/contenidos', function () {
-    return view('contenidos');
-});
+Route::get('/contenidos', 'pwa/routes@contenidos')->name('contenidos');
 
-Route::get('/nosotros', function () {
-    return view('nosotros');
-});
+Route::get('/nosotros', 'pwa/routes@nosotros')->name('nosotros');
 
-Route::get('/contacto', function () {
-    return view('contacto');
-});
+Route::get('/contacto', 'pwa/routes@contacto')->name('contacto');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
