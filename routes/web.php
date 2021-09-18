@@ -18,13 +18,13 @@ Route::get('/', function () {
 
 //ruta de pwa
 
-Route::get('/offline', 'pwa\routes@offline')->name('offline');
+Route::get('/offline', 'pwa\RoutesPageController@offline')->name('offline');
 
-Route::get('/contenidos', 'pwa\routes@contenidos')->name('contenidos');
+Route::get('/contenidos', 'pwa\RoutesPageController@contenidos')->name('contenidos');
 
-Route::get('/nosotros', 'pwa\routes@nosotros')->name('nosotros');
+Route::get('/nosotros', 'pwa\RoutesPageController@nosotros')->name('nosotros');
 
-Route::get('/contacto', 'pwa\routes@contacto')->name('contacto');
+Route::get('/contacto', 'pwa\RoutesPageController@contacto')->name('contacto');
 
 Auth::routes();
 
