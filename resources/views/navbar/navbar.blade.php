@@ -11,7 +11,7 @@
         <a class="nav-link" style="color:#ffffff;" href="{{url('/')}}">Inicio</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" style="color:#ffffff;" href="{{secure_url('/contenidos')}}">Contenidos</a>
+        <a class="nav-link" style="color:#ffffff;" href="/contenidos">Contenidos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" style="color:#ffffff;" href="{{url('/nosotros')}}">Nosotros</a>
