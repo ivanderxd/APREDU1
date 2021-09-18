@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/offline', 'pwa\routes@offline')->name('offline');
 
-Route::get('\contenidos', 'pwa\routes@contenidos')->name('contenidos');
+Route::get('/contenidos', 'pwa\routes@contenidos')->name('contenidos');
 
 Route::get('/nosotros', 'pwa\routes@nosotros')->name('nosotros');
 
