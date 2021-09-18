@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\pwa;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 class RoutesPageController extends Controller
 {
     public function offline(){
-        return view('laravelpwa\offline');
+        return view('vendor\laravelpwa\offline');
     }
 
     public function contenidos(){
