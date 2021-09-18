@@ -16,7 +16,7 @@ class RoutesPageController extends Controller
     }
 
     public function nosotros(){
-        return view('nosotros');
+        return view('Nosotros');
     }
 
     public function contacto(){
