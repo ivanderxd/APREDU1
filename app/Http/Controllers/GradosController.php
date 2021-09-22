@@ -26,7 +26,7 @@ class GradosController extends Controller
     {
        
         $grados=$request->validate([
-            'grado' => ['required','regex:/^[0-9° ]+$/','unique:Grados,grado']
+            'grado' => ['required','regex:/^[0-9° ]+$/','unique:grados,grado']
         ],[
             'grado.required'=>'El grado es obligatorio',
             'grado.unique'=>'El grado ya existe',
