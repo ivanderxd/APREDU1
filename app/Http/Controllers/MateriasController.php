@@ -27,7 +27,7 @@ class MateriasController extends Controller
     {
        
         $materias=$request->validate([
-            'nombre' => ['required','regex:/^[A-Za-z0-9ÁÉÍÓÚáéíóúñÑ ]+$/','unique:Materias,nombre']
+            'nombre' => ['required','regex:/^[A-Za-z0-9ÁÉÍÓÚáéíóúñÑ ]+$/']
         ],[
             'nombre.required'=>'El nombre de la materia es obligatorio',
             'nombre.unique'=>'El nombre de la materia ya existe',
