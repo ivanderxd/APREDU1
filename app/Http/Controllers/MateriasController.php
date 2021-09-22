@@ -12,8 +12,8 @@ class MateriasController extends Controller
 {
     public function listMaterias()
     {
-        $materias = DB::table('materias')->paginate(3); 
-        return view('materias', ['materias'=>$materias]);
+        $materias = Materias::paginate(3); 
+        return view('materias', compact('materias'));
 
     }
 
