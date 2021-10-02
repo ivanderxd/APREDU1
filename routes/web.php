@@ -18,7 +18,9 @@ Route::get('/', function () {
 
 //ruta de pwa
 
-Route::get('/offline', 'RoutesPageController@offline')->name('offline');
+Route::get('/offline', function () {
+    return view('vendor/laravelpwa/offline');
+});
 
 Route::get('/contenidos', 'RoutesPageController@contenidos')->name('contenidos');
 
