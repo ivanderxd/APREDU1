@@ -84,7 +84,7 @@
             <h5 class="card-title">Segundo grado</h5>
             <p class="card-text">Aquí puedes descargar las guías de los marcadores de segundo grado,  descarga y listo!</p>
             <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
-            <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/1mYIRiWFNr5AYbiqoSDRDNW_aEll1ccHM/view?usp=sharing"> Descarga aquí </small></p>
+            <p class="card-text"><a class="text-muted" href="https://drive.google.com/file/d/1mYIRiWFNr5AYbiqoSDRDNW_aEll1ccHM/view?usp=sharing"> Descarga aquí </a></p>
           </div>
         </div>
     
@@ -117,7 +117,7 @@
               <h5 class="card-title">Tercer grado</h5>
               <p class="card-text">Aquí puedes descargar las guías de los marcadores de tercer grado,  descarga y listo!</p>
               <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
-              <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/1cxLIExS2XPBDK81LKV456cT_xfh952dP/view?usp=sharing"> Descarga aquí </small></p>
+              <p class="card-text"><a class="text-muted" href="https://drive.google.com/file/d/1cxLIExS2XPBDK81LKV456cT_xfh952dP/view?usp=sharing"> Descarga aquí </a></p>
             </div>
           </div>
       
@@ -152,7 +152,7 @@
               <h5 class="card-title">Cuarto grado</h5>
               <p class="card-text">Aquí puedes descargar las guías de los marcadores de cuarto grado, descarga y listo!</p>
               <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
-              <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/1U1p6IC1GkQoo4cw3gadJjxYeRCIt5JV1/view?usp=sharing"> Descarga aquí </small></p>
+              <p class="card-text"><a class="text-muted" href="https://drive.google.com/file/d/1U1p6IC1GkQoo4cw3gadJjxYeRCIt5JV1/view?usp=sharing"> Descarga aquí </a></p>
             </div>
           </div>
       
@@ -184,7 +184,7 @@
           <h5 class="card-title">Quinto grado</h5>
           <p class="card-text">Aquí puedes descargar las guías de los marcadores de quinto grado, descarga y listo!</p>
           <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
-          <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/1nzIuOMiRqNRxJfz_UhNaJ1mwoO9qbQEx/view?usp=sharing"> Descarga aquí </small></p>
+          <p class="card-text"><a class="text-muted" href="https://drive.google.com/file/d/1nzIuOMiRqNRxJfz_UhNaJ1mwoO9qbQEx/view?usp=sharing"> Descarga aquí </a></p>
         </div>
       </div>
   
@@ -216,7 +216,7 @@
           <h5 class="card-title">Sexto grado</h5>
           <p class="card-text">Aquí puedes descargar las guías de los marcadores de sexto grado, descarga y listo!</p>
           <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
-          <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/163SjbPRCActhht4G2YBMR5X5aaZ0KIZD/view?usp=sharing"> Descarga aquí </small></p>
+          <p class="card-text"><a class="text-muted" href="https://drive.google.com/file/d/163SjbPRCActhht4G2YBMR5X5aaZ0KIZD/view?usp=sharing"> Descarga aquí </a></p>
         </div>
       </div>
   
