@@ -43,8 +43,12 @@
       <div class="card-body">
         <h5 class="card-title">Primer Grado</h5>
         <p class="card-text">Aquí puedes descargar las guías de los marcadores de primer grado, descarga y listo!</p>
-        <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
-        <p class="card-text"><a class="text-muted" href="https://drive.google.com/file/d/1oCB0XCaGcI-Z_woo6vNHGVHPV54o0Tj8/view?usp=sharing"> Descarga aquí </a></p>
+        <p class="card-text">
+          <small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small>
+        </p>
+        <p class="card-text">
+          <a class="text-muted" href="https://drive.google.com/file/d/1oCB0XCaGcI-Z_woo6vNHGVHPV54o0Tj8/view?usp=sharing"> Descarga aquí </a>
+        </p>
       </div>
     </div>
 
