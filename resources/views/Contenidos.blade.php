@@ -42,8 +42,9 @@
     <div class="col-md-9">
       <div class="card-body">
         <h5 class="card-title">Primer Grado</h5>
-        <p class="card-text">Aquí puedes descargar las guías de los marcadores de primer grado, solo busca la materia que te gustaria ver, descarga y listo!</p>
+        <p class="card-text">Aquí puedes descargar las guías de los marcadores de primer grado, descarga y listo!</p>
         <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
+        <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/1oCB0XCaGcI-Z_woo6vNHGVHPV54o0Tj8/view?usp=sharing"> Descarga aquí </small></p>
       </div>
     </div>
 
@@ -77,8 +78,9 @@
         <div class="col-md-9">
           <div class="card-body">
             <h5 class="card-title">Segundo grado</h5>
-            <p class="card-text">Aquí puedes descargar las guías de los marcadores de segundo grado, solo busca la materia que te gustaria ver, descarga y listo!</p>
+            <p class="card-text">Aquí puedes descargar las guías de los marcadores de segundo grado,  descarga y listo!</p>
             <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
+            <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/1mYIRiWFNr5AYbiqoSDRDNW_aEll1ccHM/view?usp=sharing"> Descarga aquí </small></p>
           </div>
         </div>
     
@@ -109,8 +111,9 @@
           <div class="col-md-9">
             <div class="card-body">
               <h5 class="card-title">Tercer grado</h5>
-              <p class="card-text">Aquí puedes descargar las guías de los marcadores de tercer grado, solo busca la materia que te gustaria ver, descarga y listo!</p>
+              <p class="card-text">Aquí puedes descargar las guías de los marcadores de tercer grado,  descarga y listo!</p>
               <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
+              <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/1cxLIExS2XPBDK81LKV456cT_xfh952dP/view?usp=sharing"> Descarga aquí </small></p>
             </div>
           </div>
       
@@ -143,8 +146,9 @@
           <div class="col-md-9">
             <div class="card-body">
               <h5 class="card-title">Cuarto grado</h5>
-              <p class="card-text">Aquí puedes descargar las guías de los marcadores de cuarto grado, solo busca la materia que te gustaria ver, descarga y listo!</p>
+              <p class="card-text">Aquí puedes descargar las guías de los marcadores de cuarto grado, descarga y listo!</p>
               <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
+              <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/1U1p6IC1GkQoo4cw3gadJjxYeRCIt5JV1/view?usp=sharing"> Descarga aquí </small></p>
             </div>
           </div>
       
@@ -174,8 +178,9 @@
       <div class="col-md-9">
         <div class="card-body">
           <h5 class="card-title">Quinto grado</h5>
-          <p class="card-text">Aquí puedes descargar las guías de los marcadores de quinto grado, solo busca la materia que te gustaria ver, descarga y listo!</p>
+          <p class="card-text">Aquí puedes descargar las guías de los marcadores de quinto grado, descarga y listo!</p>
           <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
+          <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/1nzIuOMiRqNRxJfz_UhNaJ1mwoO9qbQEx/view?usp=sharing"> Descarga aquí </small></p>
         </div>
       </div>
   
@@ -205,8 +210,9 @@
       <div class="col-md-9">
         <div class="card-body">
           <h5 class="card-title">Sexto grado</h5>
-          <p class="card-text">Aquí puedes descargar las guías de los marcadores de sexto grado, solo busca la materia que te gustaria ver, descarga y listo!</p>
+          <p class="card-text">Aquí puedes descargar las guías de los marcadores de sexto grado, descarga y listo!</p>
           <p class="card-text"><small class="text-muted">Solo debes hacer click en alguno de los siguientes links </small></p>
+          <p class="card-text"><small class="text-muted" href="https://drive.google.com/file/d/163SjbPRCActhht4G2YBMR5X5aaZ0KIZD/view?usp=sharing"> Descarga aquí </small></p>
         </div>
       </div>
   

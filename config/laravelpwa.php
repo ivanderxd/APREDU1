@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'name' => 'LaravelPWA',
+    'name' => 'APREDU',
     'manifest' => [
         'name' => env('APP_NAME', 'APREDU'),
-        'short_name' => 'PWA',
+        'short_name' => 'Apredu',
         'start_url' => '/',
         'background_color' => '#ffffff',
         'theme_color' => '#000000',
