@@ -35,7 +35,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // RUTAS DE ADMIN
 
-Route::group(['middleware'=> ['auth']], function() {
+Route::group(['middleware' => ['auth','admin']], function() {
 
     //materias
 
