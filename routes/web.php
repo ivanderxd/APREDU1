@@ -32,74 +32,81 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//materias
 
-Route::get('/materias', 'MateriasController@listMaterias')->name('index.materias');
+// RUTAS DE ADMIN
 
-Route::get('/createMaterias','MateriasController@viewCreateMaterias')->name('create.materias');
+Route::group(['middleware'=> ['auth']], function() {
 
-Route::post('/createMaterias', 'MateriasController@postCreateMaterias')->name('store.materias');
+    //materias
 
-Route::delete('delete/{id}', 'MateriasController@deleteMaterias')->name('delete.materias');
+    Route::get('/materias', 'MateriasController@listMaterias')->name('index.materias');
 
-Route::get('edit/{id}', 'MateriasController@getEdit');
+    Route::get('/createMaterias','MateriasController@viewCreateMaterias')->name('create.materias');
 
-Route::put('edit/{id}', 'MateriasController@putEdit');
+    Route::post('/createMaterias', 'MateriasController@postCreateMaterias')->name('store.materias');
 
-Route::get('/details/{id}', 'MateriasController@getDetails');
+    Route::delete('delete/{id}', 'MateriasController@deleteMaterias')->name('delete.materias');
 
+    Route::get('edit/{id}', 'MateriasController@getEdit');
 
+    Route::put('edit/{id}', 'MateriasController@putEdit');
 
-//materiales
-
-Route::get('/materiales', 'MaterialesController@listMateriales')->name('index.materiales');
-
-Route::get('/createMateriales','MaterialesController@viewCreateMateriales')->name('create.materiales');
-
-Route::post('/createMateriales', 'MaterialesController@postCreateMateriales')->name('store.materiales');
-
-Route::delete('deleteMateriales/{id}', 'MaterialesController@deleteMateriales')->name('delete.materiales');
-
-Route::get('editMateriales/{id}', 'MaterialesController@getEdit');
-
-Route::put('editMateriales/{id}', 'MaterialesController@putEdit');
-
-Route::get('/detailsMateriales/{id}', 'MaterialesController@getDetails');
+    Route::get('/details/{id}', 'MateriasController@getDetails');
 
 
-//grados
-Route::get('/grados', 'GradosController@listGrados')->name('index.grados');
 
-Route::get('/createGrados','GradosController@viewCreateGrados')->name('create.grados');
+    //materiales
 
-Route::post('/createGrados', 'GradosController@postCreateGrados')->name('store.grados');
+    Route::get('/materiales', 'MaterialesController@listMateriales')->name('index.materiales');
 
-Route::delete('deleteGrados/{id}', 'GradosController@deleteGrados')->name('delete.grados');
+    Route::get('/createMateriales','MaterialesController@viewCreateMateriales')->name('create.materiales');
 
-Route::get('editGrados/{id}', 'GradosController@getEdit');
+    Route::post('/createMateriales', 'MaterialesController@postCreateMateriales')->name('store.materiales');
 
-Route::put('editGrados/{id}', 'GradosController@putEdit');
+    Route::delete('deleteMateriales/{id}', 'MaterialesController@deleteMateriales')->name('delete.materiales');
 
-Route::get('/detailsGrados/{id}', 'GradosController@getDetails');
+    Route::get('editMateriales/{id}', 'MaterialesController@getEdit');
 
-//tipo material
-Route::get('/TipoMateriales', 'TipoMaterialesController@listTipoMateriales')->name('index.tipomateriales');
+    Route::put('editMateriales/{id}', 'MaterialesController@putEdit');
 
-Route::get('/createTipoMateriales','TipoMaterialesController@viewCreateTipoMateriales')->name('create.tipomateriales');
-
-Route::post('/createTipoMateriales', 'TipoMaterialesController@postCreateTipoMateriales')->name('store.tipomateriales');
-
-Route::delete('deleteTipoMateriales/{id}', 'TipoMaterialesController@deleteTipoMateriales')->name('delete.tipomateriales');
-
-Route::get('editTipoMateriales/{id}', 'TipoMaterialesController@getEdit');
-
-Route::put('editTipoMateriales/{id}', 'TipoMaterialesController@putEdit');
-
-Route::get('/detailsTipoMateriales/{id}', 'TipoMaterialesController@getDetails');
+    Route::get('/detailsMateriales/{id}', 'MaterialesController@getDetails');
 
 
-//usuarios
+    //grados
+    Route::get('/grados', 'GradosController@listGrados')->name('index.grados');
 
-Route::get('admin/usuarios', 'UsuariosController@index')->name('usuarios.index');
+    Route::get('/createGrados','GradosController@viewCreateGrados')->name('create.grados');
 
-Route::put('baja/{id}', 'UsuariosController@baja')->name('baja');
+    Route::post('/createGrados', 'GradosController@postCreateGrados')->name('store.grados');
+
+    Route::delete('deleteGrados/{id}', 'GradosController@deleteGrados')->name('delete.grados');
+
+    Route::get('editGrados/{id}', 'GradosController@getEdit');
+
+    Route::put('editGrados/{id}', 'GradosController@putEdit');
+
+    Route::get('/detailsGrados/{id}', 'GradosController@getDetails');
+
+    //tipo material
+    Route::get('/TipoMateriales', 'TipoMaterialesController@listTipoMateriales')->name('index.tipomateriales');
+
+    Route::get('/createTipoMateriales','TipoMaterialesController@viewCreateTipoMateriales')->name('create.tipomateriales');
+
+    Route::post('/createTipoMateriales', 'TipoMaterialesController@postCreateTipoMateriales')->name('store.tipomateriales');
+
+    Route::delete('deleteTipoMateriales/{id}', 'TipoMaterialesController@deleteTipoMateriales')->name('delete.tipomateriales');
+
+    Route::get('editTipoMateriales/{id}', 'TipoMaterialesController@getEdit');
+
+    Route::put('editTipoMateriales/{id}', 'TipoMaterialesController@putEdit');
+
+    Route::get('/detailsTipoMateriales/{id}', 'TipoMaterialesController@getDetails');
+
+
+    //usuarios
+
+    Route::get('admin/usuarios', 'UsuariosController@index')->name('usuarios.index');
+
+    Route::put('baja/{id}', 'UsuariosController@baja')->name('baja');
+
+});
